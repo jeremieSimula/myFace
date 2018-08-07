@@ -1,13 +1,9 @@
 import numpy as np
 import cv2
-import time
+
 cap = cv2.VideoCapture(0)
 
 while(True):
-
- 
-# Wait for 5 seconds
-    time.sleep(0.01)
     # Capture frame-by-frame
     ret, frame = cap.read()
 
